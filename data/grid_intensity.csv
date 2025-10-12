@@ -1,0 +1,6 @@
+country,year,gco2_per_kwh,source
+AT,2023,150,ElectricityMaps
+DE,2023,420,ElectricityMaps
+FR,2023,60,ElectricityMaps
+US,2023,370,IEA
+CN,2023,600,IEA

@@ -1,0 +1,14 @@
+# Core
+streamlit==1.37.1
+pandas==2.2.2
+plotly==5.22.0
+numpy==1.26.4          # Stabil mit Prophet & pandas (vermeidet NumPy 2.x Inkompatibilitäten)
+
+# Forecasting
+prophet==1.1.5         # Facebook Prophet
+cmdstanpy==1.2.2       # Backend, wird beim ersten Run kompiliert
+
+# Nice-to-have (werden indirekt oft mitinstalliert, hier zur Klarheit aufgeführt)
+pillow==10.3.0
+python-dateutil==2.9.0.post0
+tqdm==4.67.1

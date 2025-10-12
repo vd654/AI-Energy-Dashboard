@@ -1,0 +1,11 @@
+prefix=/Users/vanessadungl/Desktop/AI-Energy-Dashboard/exit
+exec_prefix=/Users/vanessadungl/Desktop/AI-Energy-Dashboard/exit
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: fmt
+Description: A modern formatting library
+Version: 11.1.4
+Libs: -L${libdir} -lfmt
+Cflags: -I${includedir}
+

@@ -1,0 +1,20 @@
+# Conda / Virtual Environments
+.conda/
+env/
+venv/
+*/__pycache__/
+*.pyc
+
+# macOS system files
+.DS_Store
+
+# Streamlit cache
+.streamlit/
+.cache/
+*.log
+
+# Prophet temporary models (cmdstan)
+cmdstan-*/
+
+# VSCode
+.vscode/

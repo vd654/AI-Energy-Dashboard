@@ -1,0 +1,13 @@
+prefix=/Users/vanessadungl/Desktop/AI-Energy-Dashboard/exit
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+modules=1
+
+Name: libXML
+Version: 2.13.8
+Description: libXML library version2.
+Requires.private:  icu-i18n
+Libs: -L${libdir} -lxml2 
+Libs.private:  -L/Users/vanessadungl/Desktop/AI-Energy-Dashboard/exit/lib -lz -L/Users/vanessadungl/Desktop/AI-Energy-Dashboard/exit/lib -llzma  -L/Users/vanessadungl/Desktop/AI-Energy-Dashboard/exit/lib -liconv    
+Cflags: -I${includedir}/libxml2 -I/Users/vanessadungl/Desktop/AI-Energy-Dashboard/exit/include 
