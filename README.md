@@ -1,24 +1,24 @@
-# 🌱 AI Energy Dashboard (Open Data)
+#  AI Energy Dashboard (Open Data)
 
 Dieses Projekt visualisiert und prognostiziert den **Energieverbrauch (kWh)** und die daraus resultierenden **CO₂-Emissionen (kg)** von KI-Modellen.  
 Ziel ist es, den Zusammenhang zwischen Energiebedarf, Strommix und Emissionen zu verstehen – und mit Hilfe von **[Facebook Prophet](https://facebook.github.io/prophet/)** eine **Vorhersage bis 2030** zu erstellen.
 
 ---
 
-## 📊 Features
+# Features
 
-- 📈 **Interaktives Streamlit-Dashboard**
+-  **Interaktives Streamlit-Dashboard**
   - Energieverbrauch & CO₂-Emissionen pro Jahr  
   - Vergleich mehrerer Länder basierend auf Strommix (z. B. US, DE, AT, CN, FR)
-- 🤖 **Forecast bis 2030**  
+-  **Forecast bis 2030**  
   - Mit Prophet wird der historische Trend extrapoliert  
   - Anzeige von **Konfidenzintervallen** (Unsicherheitsbereich oben/unten)
-- 🌍 **Ländervergleich**  
+-  **Ländervergleich**  
   - Reale Daten vs. Prognosen auf gleicher Energie-Basis  
   - Visualisierung des Einflusses unterschiedlicher Stromintensitäten
-- ⚡ **Automatische Berechnung von CO₂ aus Energieverbrauch × Stromintensität**
+-  **Automatische Berechnung von CO₂ aus Energieverbrauch × Stromintensität**
 
-## 🗂️ Projektstruktur
+# Projektstruktur
 AI-Energy-Dashboard/
 ├── app/
 │ └── dashboard.py # Haupt-App (Streamlit Dashboard)
@@ -29,9 +29,9 @@ AI-Energy-Dashboard/
 ├── requirements.txt
 └── .gitignore
 
-## ⚙️ Installation & Setup
+# Installation & Setup
 
-Folge diesen Schritten, um das Dashboard lokal auszuführen 👇
+Folge diesen Schritten, um das Dashboard lokal auszuführen 
 
 ---
 
@@ -54,18 +54,16 @@ energy\Scripts\activate     # Windows
 # 3️⃣ Abhängigkeiten installieren - requirements.txt
 pip install -r requirements.txt
 
-# 4️⃣ Dashboard starten 🚀
+# 4️⃣ Dashboard starten 
 streamlit run app/dashboard.py
 
-# 🧠 Hinweise
+# Hinweise
 Reale Daten werden aus den CSV-Dateien im data/-Ordner geladen.
 CO₂-Emissionen werden dynamisch anhand des Landes und Strommixes berechnet.
 Prophet extrapoliert Trends bis 2030 – inklusive oberem/unterem Konfidenzintervall.
 
-## 💚 Autorin
+# Autorin
 **Vanessa Dungl**  
-Studierende der Medizintechnik & AI/Data Science  
-📍 JKU Linz | FH St. Pölten  
-🚀 Ziel: Nachhaltige KI-Modelle sichtbar & verständlich machen
+ Ziel: Nachhaltige KI-Modelle sichtbar & verständlich machen
 
 ---# AI-Energy-Dashboard
