@@ -20,13 +20,21 @@ Ziel ist es, den Zusammenhang zwischen Energiebedarf, Strommix und Emissionen zu
 
 # Projektstruktur
 AI-Energy-Dashboard/
+
 app/
+
 dashboard.py # Haupt-App (Streamlit Dashboard)
+
 data/
+
 grid_intensity.csv # gCO₂/kWh pro Land
+
 models_energy.csv # Energieverbrauch historischer KI-Modelle
+
 README.md
+
 requirements.txt
+
 .gitignore
 
 # Installation & Setup
